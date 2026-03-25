@@ -16,13 +16,13 @@ namespace Player
         {
             InitializeComponent();
 
-            playerBox = new PictureBox(); // Initialize the player box
+            //playerBox = new PictureBox(); // Initialize the player box
 
-            playerBox.BackColor = Color.Red; // Set the color of the player box
-            playerBox.Size = new Size(50, 50); // Set the size of the player box
-            playerBox.Location = new Point(375, 375); // Set the initial position of the player box
+            //playerBox.BackColor = Color.Red; // Set the color of the player box
+            //playerBox.Size = new Size(50, 50); // Set the size of the player box
+            //playerBox.Location = new Point(375, 375); // Set the initial position of the player box
 
-            Controls.Add(playerBox); // Add the player box to the form
+            //Controls.Add(playerBox); // Add the player box to the form
 
             KeyDown += playerBox_KeyDown; // Subscribe to the KeyDown event of the form
         }
